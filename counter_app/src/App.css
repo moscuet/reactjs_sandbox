@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+
+.wrapper {
+  margin: 30px 00px;
+  text-align: center;
+}
+.counter_button {
+  display: flex;
+}

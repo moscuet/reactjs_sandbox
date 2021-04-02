@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-class TestComponent extends Component {
+export default class TestComponent extends Component {
     state = {
         person: { name: "rayan", age: 2}
     }

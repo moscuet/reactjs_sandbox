@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    
+    <title>React App</title>
+  <style>body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvaW5kZXguY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsU0FBUztFQUNUOztjQUVZO0FBQ2Q7O0FBRUE7RUFDRTthQUNXO0FBQ2IiLCJzb3VyY2VzQ29udGVudCI6WyJib2R5IHtcbiAgbWFyZ2luOiAwO1xuICBmb250LWZhbWlseTogLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCAnUm9ib3RvJywgJ094eWdlbicsXG4gICAgJ1VidW50dScsICdDYW50YXJlbGwnLCAnRmlyYSBTYW5zJywgJ0Ryb2lkIFNhbnMnLCAnSGVsdmV0aWNhIE5ldWUnLFxuICAgIHNhbnMtc2VyaWY7XG59XG5cbmNvZGUge1xuICBmb250LWZhbWlseTogc291cmNlLWNvZGUtcHJvLCBNZW5sbywgTW9uYWNvLCBDb25zb2xhcywgJ0NvdXJpZXIgTmV3JyxcbiAgICBtb25vc3BhY2U7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>.App {
+  text-align: center;
+}
+
+
+.wrapper {
+  margin: 30px 00px;
+  text-align: center;
+}
+.counter_button {
+  display: flex;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvQXBwLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGtCQUFrQjtBQUNwQjs7O0FBR0E7RUFDRSxpQkFBaUI7RUFDakIsa0JBQWtCO0FBQ3BCO0FBQ0E7RUFDRSxhQUFhO0FBQ2YiLCJzb3VyY2VzQ29udGVudCI6WyIuQXBwIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG5cbi53cmFwcGVyIHtcbiAgbWFyZ2luOiAzMHB4IDAwcHg7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbi5jb3VudGVyX2J1dHRvbiB7XG4gIGRpc3BsYXk6IGZsZXg7XG59Il0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>
+.counter_circle{
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 4rem;
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    background-color: rgb(83, 153, 138) ;
+    border-radius: 50%;
+}
+.even{
+    background-color:  chartreuse;
+}
+.odd {
+    background-color: rgb(50, 94, 6);
+}
+
+.counter_button {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+button {
+    width: 120px;
+    padding: 10px;
+    margin:10px;
+    background-color:rgb(83, 153, 138) ;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+button:hover{
+    background-color:rgb(113, 184, 113) ;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvY291bnRlci9jb3VudGVyLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7SUFDSSxZQUFZO0lBQ1osb0JBQW9CO0lBQ3BCLGtCQUFrQjtJQUNsQixlQUFlO0lBQ2YsWUFBWTtJQUNaLGFBQWE7SUFDYixrQkFBa0I7SUFDbEIsb0NBQW9DO0lBQ3BDLGtCQUFrQjtBQUN0QjtBQUNBO0lBQ0ksNkJBQTZCO0FBQ2pDO0FBQ0E7SUFDSSxnQ0FBZ0M7QUFDcEM7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsYUFBYTtJQUNiLHVCQUF1QjtBQUMzQjtBQUNBO0lBQ0ksWUFBWTtJQUNaLGFBQWE7SUFDYixXQUFXO0lBQ1gsbUNBQW1DO0lBQ25DLGtCQUFrQjtJQUNsQixZQUFZO0lBQ1osYUFBYTtBQUNqQjtBQUNBO0lBQ0ksb0NBQW9DO0FBQ3hDIiwic291cmNlc0NvbnRlbnQiOlsiXG4uY291bnRlcl9jaXJjbGV7XG4gICAgbWFyZ2luOiBhdXRvO1xuICAgIG1hcmdpbi1ib3R0b206IDEwMHB4O1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBmb250LXNpemU6IDRyZW07XG4gICAgd2lkdGg6IDMwMHB4O1xuICAgIGhlaWdodDogMzAwcHg7XG4gICAgbGluZS1oZWlnaHQ6IDMwMHB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYig4MywgMTUzLCAxMzgpIDtcbiAgICBib3JkZXItcmFkaXVzOiA1MCU7XG59XG4uZXZlbntcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAgY2hhcnRyZXVzZTtcbn1cbi5vZGQge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYig1MCwgOTQsIDYpO1xufVxuXG4uY291bnRlcl9idXR0b24ge1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xufVxuYnV0dG9uIHtcbiAgICB3aWR0aDogMTIwcHg7XG4gICAgcGFkZGluZzogMTBweDtcbiAgICBtYXJnaW46MTBweDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOnJnYig4MywgMTUzLCAxMzgpIDtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgYm9yZGVyOiBub25lO1xuICAgIG91dGxpbmU6IG5vbmU7XG59XG5idXR0b246aG92ZXJ7XG4gICAgYmFja2dyb3VuZC1jb2xvcjpyZ2IoMTEzLCAxODQsIDExMykgO1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>footer {
+    width: 100%;
+    height: 100px;
+    padding-top:20px;
+    text-align: center;
+    background-color: darkgrey;
+   
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvZm9vdGVyL2Zvb3Rlci5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gsYUFBYTtJQUNiLGdCQUFnQjtJQUNoQixrQkFBa0I7SUFDbEIsMEJBQTBCOztBQUU5QiIsInNvdXJjZXNDb250ZW50IjpbImZvb3RlciB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiAxMDBweDtcbiAgICBwYWRkaW5nLXRvcDoyMHB4O1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBkYXJrZ3JleTtcbiAgIFxufSJdLCJzb3VyY2VSb290IjoiIn0= */</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="wrapper"><header><div><h1> React Counter App</h1><p>02/04/2021</p></div></header><div class="counter_div"><div class="odd counter_circle"><h1>7</h1></div><div class="counter_button"><button class="add_one">Add One</button><button class="remove_one">Remove One</button><button class="reset">Reset</button></div><div class="counter_footer"><p> Developed By Rahman</p></div></div><footer><div><p>@ All Right Reserved!</p></div></footer></div></div>
+    
+  <script src="./React App_files/bundle.js"></script><script src="./React App_files/vendors_main.chunk.js"></script><script src="./React App_files/main.chunk.js"></script>
+
+</body></html>
