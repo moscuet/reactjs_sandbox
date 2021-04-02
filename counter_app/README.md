@@ -1,7 +1,7 @@
 ## Counter App
 a simple counter app to practice react class component, state and functional component
 
-![Counter_App]('./app_screenshot.png')
+![Counter_App](app_screenshot.png)
 
 
 
