@@ -1,0 +1,22 @@
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.blue {
+    background-color: blue;
+}
+.circle {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
