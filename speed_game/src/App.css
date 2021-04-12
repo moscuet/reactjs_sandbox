@@ -1,7 +1,8 @@
+
 body {
   height: 100vh;
-  font-family: "Dosis", sans-serif;
-  background-image: linear-gradient(
+  font-family: 'Mystery Quest', cursive;
+   background-image: linear-gradient(
    to right top,
    #6dc7f1,
    #b8ad19

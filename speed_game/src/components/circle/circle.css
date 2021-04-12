@@ -10,11 +10,16 @@
 .blue {
     background-color: blue;
 }
+.orange {
+    background-color: orange;
+}
+.purple {
+    background-color: purple;
+}
 .circle {
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    background-color: grey;
     display: flex;
     align-items: center;
     justify-content: center;
